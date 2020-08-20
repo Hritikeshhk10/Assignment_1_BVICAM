@@ -1,0 +1,105 @@
+body{
+	font-family: 'Open Sans',sans-serif;
+	background:  #ecf0f3;
+	justify-content: center;
+	justify-items: center;
+}
+#container{
+	width: 68%;
+	height: auto;
+	margin: 20px auto;	
+}
+#calculator{
+	width: 32%;
+	height: auto;
+	background-color: #ecf0f3;
+	margin: 0 auto;
+	top: 20px;
+	position: relative;
+	border-radius: 20px;
+	box-shadow: 10px 10px 15px #cbced1,
+				-10px -10px 15px #ffffff;
+}
+#result{
+	height: 120px;
+	border-left: 3px solid  rgb(189, 197, 199);
+	border-right: 3px solid rgb(189, 197, 199);
+	border-top: 3px solid   rgb(189, 197, 199);
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+#history{
+	text-align: right;
+	height: 20px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 15px;
+	color: #919191;
+}
+#output{
+	text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 30px;
+}
+#keyboard{
+	height: 400px;
+	border-left: 3px solid  rgb(189, 197, 199);
+	border-right: 3px solid   rgb(189, 197, 199);
+	border-bottom: 3px solid  rgb(189, 197, 199);
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+#clear{
+	background-color: rgb(236, 38, 38);
+}
+.operator, .number, .empty{
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 15px;
+}
+.number, .empty{
+	background-color: #eaedef;
+}
+.number, .operator {
+	border-radius: 40px;
+	
+}
+.number:hover, .operator:hover{
+	box-shadow: 5px 5px 7px #cbced1,
+				-5px -5px 7px #ffffff;
+}
+.number, .operator{
+	cursor: pointer;
+}
+.operator:active, .number:active{
+	font-size: 13px;
+}
+.operator:focus, .number:focus, .empty:focus{
+	outline: 0;
+}
+button:nth-child(4){
+	font-size: 20px;
+	background-color: #63e0b6;
+}
+button:nth-child(8){
+	font-size: 20px;
+	background-color: #e6a82e;
+}
+button:nth-child(12){
+	font-size: 20px;
+	background-color: #d082e7;
+}
+button:nth-child(16){
+	font-size: 20px;
+	background-color: #63b7e7;
+}
+button:nth-child(20){
+	font-size: 20px;
+	background-color: #31b924;
+}
